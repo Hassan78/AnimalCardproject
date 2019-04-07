@@ -1,0 +1,65 @@
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Outer Card Area */
+
+.card {
+	max-width: 300px;
+}
+
+
+h1 {	
+	padding-left: 5px;
+}
+
+.animal {
+	border-style: solid;
+	border-color: #dcdcdc;
+	border-width: 1px;
+	padding: 0 12px 12px 12px;
+    -webkit-box-shadow: 0px 5px 9px 2px rgba(173,173,173,1);
+    -moz-box-shadow: 0px 5px 9px 2px rgba(173,173,173,1);
+    box-shadow: 0px 5px 9px 2px rgba(173,173,173,1);
+}
+
+/* Image Area */
+
+
+.image {
+	max-width: 300px;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-top: -10px;
+}
+
+
+/* Inner Card  Area */
+
+.animal-info {
+	border-style: solid;
+	border-color: #DCDCDC;
+	border-width: 1px;
+	padding: 0 10px 10px 10px;
+}
+
+.summary {
+	font-style: italic;
+}
+
+ul.animal-list {
+	list-style: none;
+	padding-left: 0px;
+}
+
+span.list-data {
+	font-style: italic;
+}
+
+
+span.list-field-name {
+	font-weight: bold;
+	font-style: normal;
+}
+
